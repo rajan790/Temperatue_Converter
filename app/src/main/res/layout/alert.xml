@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/L1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/alert">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select unit"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/cel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Celsius °C"
+        android:textSize="17sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/fah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Fahrenheit °F"
+        android:textSize="17sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/kel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Kelvin"
+        android:textSize="17sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/Ran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Rankine °R"
+        android:textSize="17sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/Rea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Réaumur °Re"
+        android:textSize="17sp"
+        android:textColor="@color/black" />
+</LinearLayout>
